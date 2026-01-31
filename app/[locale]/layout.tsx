@@ -3,6 +3,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { Inter, Noto_Sans_SC } from 'next/font/google';
 import StructuredData from '@/components/StructuredData';
 import '../globals.css';
+import Script from 'next/script';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -131,7 +132,19 @@ export default async function LocaleLayout({
         <StructuredData locale={locale} />
       </head>
       <body className={locale === 'zh' ? 'font-chinese' : 'font-sans'}>
-        <NextIntlClientProvider messages={messages}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-PZ7C1G875F"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PZ7C1G875F');
+          `}
+        </Script>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>

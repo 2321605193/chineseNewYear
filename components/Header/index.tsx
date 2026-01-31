@@ -12,8 +12,9 @@ export default function Header() {
 
   const toggleLanguage = () => {
     const newLocale = locale === 'en' ? 'zh' : 'en';
-    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
-    router.push(newPath);
+    const basePath = pathname.replace(/^\/(en|zh)/, '');
+    const targetPath = `/${newLocale}${basePath || ''}`;
+    router.push(targetPath);
   };
 
   return (
