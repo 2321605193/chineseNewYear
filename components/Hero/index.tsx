@@ -74,7 +74,9 @@ export default function Hero({ targetDate, year }: HeroProps) {
           {/* 装饰性文字 */}
           <div className="mt-8 flex justify-center gap-4 text-2xl md:text-3xl animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <span className="animate-wiggle" style={{ animationDelay: '0s' }}>🎊</span>
-            <span className="text-cny-gold font-semibold text-glow">恭贺新春</span>
+            <span className="text-cny-gold font-semibold text-glow">
+              {t('blessing')}
+            </span>
             <span className="animate-wiggle" style={{ animationDelay: '0.5s' }}>🎊</span>
           </div>
         </div>
