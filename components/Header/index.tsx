@@ -18,14 +18,14 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 glass-effect-strong border-b border-white/10">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <nav className="container mx-auto px-4 py-4 flex justify-between items-center" aria-label="Main navigation">
         {/* Logo区域 */}
         <div className="flex items-center space-x-3 group">
-          <span className="text-3xl animate-wiggle lantern-glow">🏮</span>
+          <span className="text-3xl animate-wiggle lantern-glow" role="img" aria-label="Lantern">🏮</span>
           <h1 className="text-2xl font-bold gradient-text-gold text-glow">
             {locale === 'zh' ? '春节倒计时' : 'CNY Countdown'}
           </h1>
-          <span className="text-2xl animate-bounce-slow">🎊</span>
+          <span className="text-2xl animate-bounce-slow" role="img" aria-label="Celebration">🎊</span>
         </div>
 
         {/* 语言切换按钮 */}
@@ -39,14 +39,14 @@ export default function Header() {
 
           {/* 按钮内容 */}
           <span className="relative flex items-center gap-2">
-            <span className="text-lg">🌐</span>
+            <span className="text-lg" role="img" aria-label="Globe">🌐</span>
             {t('switch')}
           </span>
 
           {/* 闪光效果 */}
           <div className="absolute inset-0 shimmer-effect opacity-0 group-hover/btn:opacity-100 transition-opacity"></div>
         </button>
-      </div>
+      </nav>
     </header>
   );
 }

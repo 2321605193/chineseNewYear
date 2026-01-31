@@ -3,6 +3,7 @@
 import { useCountdown } from '@/hooks/useCountdown';
 import { padZero } from '@/lib/countdown';
 import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 
 interface CountdownTimerProps {
   targetDate: Date;
@@ -11,6 +12,42 @@ interface CountdownTimerProps {
 export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
   const countdown = useCountdown(targetDate);
   const t = useTranslations('countdown');
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return (
+      <div className="w-full max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white text-glow animate-pulse-slow">
+          {t('title')}
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+          {['00', '00', '00', '00'].map((value, index) => (
+            <div
+              key={index}
+              className="relative glass-effect-strong rounded-3xl p-6 md:p-10 text-center"
+            >
+              <div className="text-6xl md:text-8xl font-bold gradient-text-gold text-glow-strong">
+                {value}
+              </div>
+              <div className="text-base md:text-xl text-white/90 font-bold uppercase tracking-widest mt-3">
+                {index === 0
+                  ? t('days')
+                  : index === 1
+                    ? t('hours')
+                    : index === 2
+                      ? t('minutes')
+                      : t('seconds')}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   if (countdown.isExpired) {
     return (
