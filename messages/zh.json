@@ -83,6 +83,11 @@
     }
   },
   "footer": {
+    "donateTitle": "请作者喝杯咖啡",
+    "donateDescription": "扫码支持一下，感谢你的鼓励。",
+    "donateHint": "付款码支持作者继续更新内容。",
+    "donateNote": "祝你新年快乐，福气满满！",
+    "donateAlt": "付款二维码",
     "copyright": "© {year} 中国新年倒计时。保留所有权利。",
     "madeWith": "用 ❤️ 制作，庆祝中华文化",
     "greeting": "恭贺新春 · 万事如意"

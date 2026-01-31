@@ -44,6 +44,37 @@ export default function Footer() {
           </div>
 
           {/* 版权信息 */}
+          {/* Support QR */}
+          <div className="glass-effect rounded-2xl p-6 md:p-8 border border-white/30 mb-8">
+            <div className="text-center">
+              <p className="text-xl md:text-2xl font-semibold gradient-text-gold">
+                {t('donateTitle')}
+              </p>
+              <p className="mt-2 text-sm md:text-base text-white/85">
+                {t('donateDescription')}
+              </p>
+            </div>
+            <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-6">
+              <div className="relative">
+                <div className="absolute -inset-2 rounded-2xl bg-gradient-to-br from-cny-gold/40 via-transparent to-cny-red/30 blur-lg opacity-60"></div>
+                <img
+                  src="/qrcode.png"
+                  alt={t('donateAlt')}
+                  className="relative w-40 h-40 md:w-48 md:h-48 rounded-2xl border border-white/30 shadow-2xl bg-white p-2"
+                  loading="lazy"
+                />
+              </div>
+              <div className="text-center sm:text-left max-w-xs">
+                <p className="text-white/90 text-sm md:text-base">
+                  {t('donateHint')}
+                </p>
+                <p className="mt-2 text-xs text-white/70">
+                  {t('donateNote')}
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="glass-effect-strong rounded-2xl p-6 backdrop-blur-xl">
             <p className="text-sm md:text-base text-white/90 font-medium">
               {t('copyright', { year: currentYear.toString() })}

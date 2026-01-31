@@ -83,6 +83,11 @@
     }
   },
   "footer": {
+    "donateTitle": "Buy the author a coffee",
+    "donateDescription": "Scan the QR code below to support the project.",
+    "donateHint": "Your support keeps the updates and new features coming.",
+    "donateNote": "Thank you for your kindness and encouragement!",
+    "donateAlt": "Donation QR code",
     "copyright": "© {year} Chinese New Year Countdown. All rights reserved.",
     "madeWith": "Made with ❤️ for celebrating Chinese culture",
     "greeting": "Happy New Year · Best Wishes"
