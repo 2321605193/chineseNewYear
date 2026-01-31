@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Chinese New Year 2026 Countdown | Spring Festival Timer",
+    "description": "Real-time countdown to Chinese New Year 2026 (Year of the Horse). Discover the date, traditions, and cultural significance of the Spring Festival.",
+    "keywords": "Chinese New Year countdown, Spring Festival 2026, Lunar New Year, Chinese zodiac 2026, Year of the Horse, CNY timer"
+  },
+  "hero": {
+    "title": "Chinese New Year",
+    "subtitle": "Countdown to {year}",
+    "year": "2026"
+  },
+  "countdown": {
+    "title": "Time Until Spring Festival",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "expired": "Happy Chinese New Year!",
+    "daysRemaining": "{days} days until Spring Festival"
+  },
+  "date": {
+    "title": "When is Chinese New Year?",
+    "gregorian": "Gregorian Date",
+    "lunar": "Lunar Date",
+    "timezone": "Beijing Time (UTC+8)"
+  },
+  "zodiac": {
+    "title": "{year} Year of the {animal}",
+    "subtitle": "Explore the mysteries of the {year} zodiac",
+    "blessing": "May you have good fortune and success in the Year of the {animal}",
+    "horse": {
+      "name": "Horse",
+      "description": "The Horse symbolizes energy, freedom, and an adventurous spirit. People born in the Year of the Horse are known for their enthusiasm, independence, and love of freedom. They are warm-hearted, optimistic, and always ready for new challenges.",
+      "traits": "Energetic, Independent, Optimistic, Adventurous"
+    }
+  },
+  "culture": {
+    "title": "About Chinese New Year",
+    "intro": "Chinese New Year, also known as the Spring Festival, is the most important traditional holiday in Chinese culture. It marks the beginning of a new year on the lunar calendar and is celebrated with family reunions, festive meals, and vibrant traditions.",
+    "heritage": "Inheriting thousand-year culture, celebrating Spring Festival together",
+    "traditions": {
+      "title": "Traditions & Customs",
+      "items": [
+        {
+          "name": "Family Reunion Dinner",
+          "description": "The most important meal of the year, bringing families together on New Year's Eve."
+        },
+        {
+          "name": "Red Envelopes (Hongbao)",
+          "description": "Monetary gifts in red envelopes symbolizing good luck and prosperity."
+        },
+        {
+          "name": "Fireworks & Firecrackers",
+          "description": "Loud celebrations to ward off evil spirits and welcome good fortune."
+        },
+        {
+          "name": "Spring Cleaning",
+          "description": "Sweeping away bad luck before the new year to make room for good fortune."
+        }
+      ]
+    },
+    "foods": {
+      "title": "Traditional Foods",
+      "items": [
+        {
+          "name": "Dumplings (Jiaozi)",
+          "meaning": "Wealth and prosperity"
+        },
+        {
+          "name": "Fish",
+          "meaning": "Abundance and surplus"
+        },
+        {
+          "name": "Spring Rolls",
+          "meaning": "Wealth like gold bars"
+        },
+        {
+          "name": "Nian Gao (Rice Cake)",
+          "meaning": "Progress and growth"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Chinese New Year Countdown. All rights reserved.",
+    "madeWith": "Made with ❤️ for celebrating Chinese culture",
+    "greeting": "Happy New Year · Best Wishes"
+  },
+  "language": {
+    "switch": "切换到中文",
+    "current": "English"
+  }
+}

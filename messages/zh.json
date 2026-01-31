@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "2026年中国新年倒计时 | 春节倒计时器",
+    "description": "2026年中国新年（马年）实时倒计时。了解春节日期、传统习俗和文化意义。",
+    "keywords": "中国新年倒计时, 春节2026, 农历新年, 生肖2026, 马年, 春节计时器"
+  },
+  "hero": {
+    "title": "中国新年",
+    "subtitle": "{year}年倒计时",
+    "year": "2026"
+  },
+  "countdown": {
+    "title": "距离春节还有",
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒",
+    "expired": "新年快乐！",
+    "daysRemaining": "距离春节还有 {days} 天"
+  },
+  "date": {
+    "title": "春节是哪一天？",
+    "gregorian": "公历日期",
+    "lunar": "农历日期",
+    "timezone": "北京时间 (UTC+8)"
+  },
+  "zodiac": {
+    "title": "{year}年 {animal}年",
+    "subtitle": "探索 {year} 年的生肖奥秘",
+    "blessing": "愿您在 {animal} 年里万事如意，心想事成",
+    "horse": {
+      "name": "马",
+      "description": "马象征着活力、自由和冒险精神。马年出生的人以热情、独立和热爱自由而闻名。他们热心、乐观，总是准备迎接新的挑战。",
+      "traits": "精力充沛、独立自主、乐观向上、勇于冒险"
+    }
+  },
+  "culture": {
+    "title": "关于中国新年",
+    "intro": "中国新年，又称春节，是中华文化中最重要的传统节日。它标志着农历新年的开始，人们通过家庭团聚、丰盛的年夜饭和丰富多彩的传统习俗来庆祝。",
+    "heritage": "传承千年文化，共庆新春佳节",
+    "traditions": {
+      "title": "传统习俗",
+      "items": [
+        {
+          "name": "年夜饭",
+          "description": "一年中最重要的一餐，除夕夜全家团聚共享。"
+        },
+        {
+          "name": "红包",
+          "description": "用红包装的压岁钱，象征好运和繁荣。"
+        },
+        {
+          "name": "烟花爆竹",
+          "description": "热闹的庆祝活动，驱赶邪灵，迎接好运。"
+        },
+        {
+          "name": "大扫除",
+          "description": "新年前扫除霉运，为好运腾出空间。"
+        }
+      ]
+    },
+    "foods": {
+      "title": "传统美食",
+      "items": [
+        {
+          "name": "饺子",
+          "meaning": "财富和繁荣"
+        },
+        {
+          "name": "鱼",
+          "meaning": "年年有余"
+        },
+        {
+          "name": "春卷",
+          "meaning": "财富如金条"
+        },
+        {
+          "name": "年糕",
+          "meaning": "步步高升"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© {year} 中国新年倒计时。保留所有权利。",
+    "madeWith": "用 ❤️ 制作，庆祝中华文化",
+    "greeting": "恭贺新春 · 万事如意"
+  },
+  "language": {
+    "switch": "Switch to English",
+    "current": "中文"
+  }
+}
